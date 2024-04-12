@@ -76,7 +76,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>06 Jul 2023, 19:57</td>
+                        <td>11 Apr 2024, 10:34</td>
           </tr>
         </tbody>
       </table>
@@ -123,17 +123,17 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@Purchase</td>
-                    <td  class="passed"    >1</td>
-          <td >0</td>
+                    <td >0</td>
+          <td  class="failed"    >1</td>
           <td class="total">1</td>
-          <td      class="passed"    >16</td>
-          <td >0</td>
-          <td >0</td>
+          <td      class="passed"    >13</td>
+          <td      class="failed"    >1</td>
+          <td     class="skipped"   >2</td>
           <td >0</td>
           <td >0</td>
           <td class="total">16</td>
-          <td class="duration" data-value="15484360754">15s 484ms</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="4155099600">4s 155ms</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -160,9 +160,9 @@ $(document).ready(function() {
   </div>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario</span>
   <span class="name">End to End Checkout Product</span>
   
@@ -173,7 +173,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
   <div class="inner-level hooks-before">
         <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
@@ -194,7 +194,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.openBrowser()</span>
                         
-  <span class="lead-duration duration">25s 707ms</span>
+  <span class="lead-duration duration">5s 392ms</span>
 
           </div>
 
@@ -210,9 +210,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -222,14 +222,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">User already on sauce demo website</span>
   
-  <span class="lead-duration duration">5s 194ms</span>
+  <span class="lead-duration duration">168ms</span>
 
   </div>
 
@@ -250,7 +250,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User input "standard_user" as userName and input "secret_sauce" as password</span>
   
-  <span class="lead-duration duration">3s 217ms</span>
+  <span class="lead-duration duration">3s 253ms</span>
 
   </div>
 
@@ -271,7 +271,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User already on sales page</span>
   
-  <span class="lead-duration duration">738ms</span>
+  <span class="lead-duration duration">035ms</span>
 
   </div>
 
@@ -292,7 +292,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User sort the product list by "Name (Z to A)"</span>
   
-  <span class="lead-duration duration">1s 182ms</span>
+  <span class="lead-duration duration">110ms</span>
 
   </div>
 
@@ -313,7 +313,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User add "Sauce Labs Onesie" and "Test.allTheThings() T-Shirt (Red)" to cart</span>
   
-  <span class="lead-duration duration">730ms</span>
+  <span class="lead-duration duration">099ms</span>
 
   </div>
 
@@ -334,7 +334,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User click cart button</span>
   
-  <span class="lead-duration duration">381ms</span>
+  <span class="lead-duration duration">061ms</span>
 
   </div>
 
@@ -355,7 +355,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User already on your cart page</span>
   
-  <span class="lead-duration duration">130ms</span>
+  <span class="lead-duration duration">023ms</span>
 
   </div>
 
@@ -376,7 +376,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User remove item Tshirt Red</span>
   
-  <span class="lead-duration duration">474ms</span>
+  <span class="lead-duration duration">037ms</span>
 
   </div>
 
@@ -397,7 +397,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User click checkout button</span>
   
-  <span class="lead-duration duration">253ms</span>
+  <span class="lead-duration duration">044ms</span>
 
   </div>
 
@@ -418,7 +418,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User already on checkout information page</span>
   
-  <span class="lead-duration duration">305ms</span>
+  <span class="lead-duration duration">022ms</span>
 
   </div>
 
@@ -439,7 +439,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User input "Iyang" as firstName, input "Mulyana" as lastName and input "12345" as zipCode</span>
   
-  <span class="lead-duration duration">1s 370ms</span>
+  <span class="lead-duration duration">199ms</span>
 
   </div>
 
@@ -460,7 +460,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User click continue button</span>
   
-  <span class="lead-duration duration">409ms</span>
+  <span class="lead-duration duration">057ms</span>
 
   </div>
 
@@ -481,7 +481,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">User already on checkout overview page</span>
   
-  <span class="lead-duration duration">305ms</span>
+  <span class="lead-duration duration">021ms</span>
 
   </div>
 
@@ -498,15 +498,56 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">User done check the total price "$8.63"</span>
   
-  <span class="lead-duration duration">181ms</span>
+  <span class="lead-duration duration">019ms</span>
 
   </div>
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Error message</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='summary_info_label summary_total_label']"}
+  (Session info: chrome=123.0.6312.106)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-FUGQNF4', ip: '172.23.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_402'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c816b13852340caddf351ba717475b41, findElement {using=xpath, value=//div[@class='summary_info_label summary_total_label']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.106, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53942/devtoo..., se:cdpVersion: 123.0.6312.106, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c816b13852340caddf351ba717475b41
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy21.getText(Unknown Source)
+	at org.example.pageObject.CheckoutOverviewPage.verifyTotalPrice(CheckoutOverviewPage.java:27)
+	at step_definitions.CheckoutOverviewSteps.verifyTotalPrice(CheckoutOverviewSteps.java:26)
+	at ✽.And User done check the total price "$8.63"(features/Purchase.feature:20)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -519,11 +560,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">And</span>
   <span class="name">User click the finish button</span>
   
-  <span class="lead-duration duration">372ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -540,11 +581,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
   <span class="name">User already completed checkout</span>
   
-  <span class="lead-duration duration">236ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -565,7 +606,7 @@ $(document).ready(function() {
 
     
   <div class="inner-level hooks-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -577,13 +618,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.closeBrowser()</span>
                         
-  <span class="lead-duration duration">526ms</span>
+  <span class="lead-duration duration">711ms</span>
 
           </div>
 

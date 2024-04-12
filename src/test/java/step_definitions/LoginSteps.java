@@ -20,11 +20,12 @@ public class LoginSteps {
         Assert.assertTrue(loginPage.verifyLandingPage());
     }
     @When("User input \"(.*)\" as userName and input \"(.*)\" as password")
-    public void inputCredential(String userName, String password){
+    public void inputCredential(String userName, String password) throws InterruptedException {
         LoginPage loginPage = new LoginPage(webDriver);
         loginPage.setUserName(userName);
         loginPage.setPassword(password);
         loginPage.clickLogin();
+        Thread.sleep(3000);
     }
     @Then("User see error \"(.*)\" on login page")
     public void verifyErrorText(String errorText){
@@ -32,4 +33,6 @@ public class LoginSteps {
         Assert.assertEquals(errorText, loginPage.verifyErrorText());
 
     }
+
+
 }

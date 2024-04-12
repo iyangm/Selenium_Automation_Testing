@@ -15,4 +15,4 @@ Feature: Login
     | userName      | password     | errorText                                                                 |
     | standard_user |              | Epic sadface: Password is required                                        |
     |               | secret_sauce | Epic sadface: Username is required                                        |
-    | titi          | 123          | Epic sadface: Username and password do not match any user in this service |
+    | Iyang         | 123          | Epic sadface: Username and password do not match any user in this service |
